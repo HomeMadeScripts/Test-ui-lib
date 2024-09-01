@@ -212,10 +212,10 @@ function Library:Create(xHubName,xGameName)
         Tab.ChildRemoved:Connect(Size)
 
         if xVisible then 
-            TabButton.BackgroundColor3 = Color3.fromRGB(40, 42, 60)
+            TabButton.BackgroundColor3 = Color3.fromRGB(54, 52, 52)
             TabButton.TextColor3 = Color3.fromRGB(255, 255, 255)
         else 
-            TabButton.BackgroundColor3 = Color3.fromRGB(40, 42, 60)
+            TabButton.BackgroundColor3 = Color3.fromRGB(54, 52, 52)
             TabButton.TextColor3 = Color3.fromRGB(190, 190, 190)
         end
 
@@ -478,7 +478,7 @@ function Library:Create(xHubName,xGameName)
 
             SliderTrail.Name = "SliderTrail"
             SliderTrail.Parent = SliderButton
-            SliderTrail.BackgroundColor3 = Color3.fromRGB(55, 74, 251)
+            SliderTrail.BackgroundColor3 = Color3.fromRGB(55, 55, 75)
             SliderTrail.Size = UDim2.new(0, 0, 0, 10)
             SliderTrail.BorderSizePixel = 0
 
