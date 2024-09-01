@@ -272,12 +272,12 @@ function Library:Create(xHubName,xGameName)
 
             Label.MouseEnter:Connect(function()
                 game:GetService("TweenService"):Create(LabelFrame, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-                    BackgroundColor3 = Color3.fromRGB(50, 50, 44)
+                    BackgroundColor3 = Color3.fromRGB(44, 43, 43)
                 }):Play()
             end)
             Label.MouseLeave:Connect(function()
                 game:GetService("TweenService"):Create(LabelFrame, TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.In), {
-                    BackgroundColor3 = Color3.fromRGB(40, 40, 34)
+                    BackgroundColor3 = Color3.fromRGB(34, 33, 33)
                 }):Play()
             end)
 
